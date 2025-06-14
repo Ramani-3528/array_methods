@@ -25,14 +25,12 @@ document.getElementById('shift').addEventListener('click', () => {
 });
 
 document.getElementById('delete').addEventListener('click', () => {
-    if (myArray.length > 0) {
         delete myArray[0];
         showArray();
-    }
 });
 
 document.getElementById('concat').addEventListener('click', () => {
-    const newArray = [];
+    const newArray = ["14","9","6.2"];
     myArray = myArray.concat(newArray);
     showArray();
 });
