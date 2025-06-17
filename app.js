@@ -1,6 +1,3 @@
-let myArray = ["Apple","Orange","Mango","Papaya","StrawBerry"];
-const input = document.getElementById('inputValue');
-
 function showArray() {
     alert("Current Array: [" + myArray.join() + "]");
 }
