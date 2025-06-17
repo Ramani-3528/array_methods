@@ -1,8 +1,8 @@
-// let myArray = ["Apple","Orange","Mango","Papaya","StrawBerry"];
-const input = document.getElementById('inputValue');
+let myArray = ["Apple","Orange","Mango","Papaya","StrawBerry"];
+// const output = document.getElementById('myArray');
 
 function showArray() {
-    alert("Current Array: [" + myArray.join() + "]");
+    alert("Current Array: " + myArray);
 }
 
 document.getElementById('string').addEventListener('click', () => {
@@ -24,8 +24,8 @@ document.getElementById('shift').addEventListener('click', () => {
     showArray();
 });
 
-document.getElementById('unShift').addEventListener('click', () => {
-    myArray=unShift();
+document.getElementById('unshift').addEventListener('click', () => {
+    myArray.unshift("Carrot");
     showArray();
 });
 
