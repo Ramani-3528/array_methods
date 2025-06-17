@@ -35,7 +35,7 @@ document.getElementById('delete').addEventListener('click', () => {
 });
 
 document.getElementById('concat').addEventListener('click', () => {
-    const newArray = ["14","9","6.2"];
+    const newArray = ["2,3,4,5"];
     myArray = myArray.concat(newArray);
     showArray();
 });
@@ -61,6 +61,6 @@ document.getElementById('slice').addEventListener('click', () => {
 });
 
 document.getElementById('splice').addEventListener('click', () => {
-    myArray.splice(1, 5, "Potato");
+    myArray.splice(4);
     showArray();
 });
