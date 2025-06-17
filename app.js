@@ -15,7 +15,7 @@ document.getElementById('pop').addEventListener('click', () => {
 });
 
 document.getElementById('push').addEventListener('click', () => {
-    myArray.push("Banana");
+    myArray.push("Potato");
     showArray();
 });
 
@@ -25,7 +25,7 @@ document.getElementById('shift').addEventListener('click', () => {
 });
 
 document.getElementById('delete').addEventListener('click', () => {
-        delete myArray[0];
+        delete myArray [4];
         showArray();
 });
 
@@ -40,9 +40,9 @@ document.getElementById('filter').addEventListener('click', () => {
     showArray();
 });
 
-document.getElementById('find').addEventListener('click', () => {
-    const found = myArray.find(item => !isNaN(item));
-    alert(found);
+document.getElementById('unShift').addEventListener('click', () => {
+    myArray=unShift();
+    showArray();
 });
 
 document.getElementById('sort').addEventListener('click', () => {
