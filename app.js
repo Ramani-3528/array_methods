@@ -1,3 +1,6 @@
+// let myArray = ["Apple","Orange","Mango","Papaya","StrawBerry"];
+const input = document.getElementById('inputValue');
+
 function showArray() {
     alert("Current Array: [" + myArray.join() + "]");
 }
@@ -21,6 +24,11 @@ document.getElementById('shift').addEventListener('click', () => {
     showArray();
 });
 
+document.getElementById('unShift').addEventListener('click', () => {
+    myArray=unShift();
+    showArray();
+});
+
 document.getElementById('delete').addEventListener('click', () => {
         delete myArray [4];
         showArray();
@@ -34,11 +42,6 @@ document.getElementById('concat').addEventListener('click', () => {
 
 document.getElementById('filter').addEventListener('click', () => {
     myArray = myArray.filter(item => !isNaN(item));
-    showArray();
-});
-
-document.getElementById('unShift').addEventListener('click', () => {
-    myArray=unShift();
     showArray();
 });
 
