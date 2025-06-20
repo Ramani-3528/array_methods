@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     text-wrap: pretty;
-    /* border: 1px solid white; */
+    /* border: 0.1rem solid white; */
 }
 
 html{
@@ -20,7 +20,7 @@ body{
 
 ::-webkit-scrollbar {
     width: 1.5rem;
-    height: 10px;
+    height: 1rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -65,7 +65,7 @@ body{
 
 h1{
     font-family: "Savate"; 
-    font-size: 40px;  
+    font-size: 4rem;  
     text-align: center;
 }
 
@@ -73,40 +73,40 @@ label{
     background-color: #f5f4f2;
     color: #0b0c0e;
     border: none;
-    border-radius: 6px;
+    border-radius: 0.6rem;
     padding: 1rem;
-    font-size: 16px;
+    font-size: 1.6rem;
     align-items: center;
-    box-shadow: 0 0 8px rgba(21, 22, 23, 0.6);
+    box-shadow: 0 0 0.8rem rgba(21, 22, 23, 0.6);
 }
 
 button {
     font-family: "Arvo";
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 500;
     background-color: #e4bca7;
     color: #0b0c0e;
-    border: 2px solid #090a0afb;
-    padding: 10px;
+    border: 0.2rem solid #090a0afb;
+    padding: 1rem;
     margin: 1rem;
     width: 10rem;
-    border-radius: 6px;
+    border-radius: 0.6rem;
     cursor: pointer;
-    box-shadow: 0px 0px 10px #000000e1;
+    box-shadow: 0rem 0rem 1rem #000000e1;
 }
 
 button:hover {
     background-color: rgb(99, 98, 96);
-    border: 2px solid rgb(225, 218, 215);
+    border: 0.2rem solid rgb(225, 218, 215);
 }
 
 .methodsContainer{
     background-color: rgb(117, 30, 30);
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(1.2rem);
     margin-top: 1rem;
     padding: 6rem;
     border-radius: 2rem;
-    box-shadow: 4px 4px 20px #000000e1;
+    box-shadow: 0.4rem 0.4rem 2rem #000000e1;
 }
 
 .firstRowBody{
